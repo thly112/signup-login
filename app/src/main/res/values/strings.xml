@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">signup_login</string>
+    <string name="login_button_description">Login button</string>
+</resources>

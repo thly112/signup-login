@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Bo góc nền -->
+        <shape android:shape="rectangle">
+            <corners android:radius="100dp"/> <!-- Độ bo góc -->
+            <solid android:color="@color/white"/> <!-- Màu nền -->
+        </shape>
+    </item>
+    <item>
+        <!-- Hình ảnh PNG -->
+        <bitmap
+            android:src="@drawable/btn_arraw1"
+            android:gravity="center"
+            android:tileMode="disabled"/>
+    </item>
+</layer-list>
